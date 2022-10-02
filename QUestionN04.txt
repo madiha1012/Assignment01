@@ -1,0 +1,23 @@
+void main() {
+
+  var name = "Robert";
+  print(name);
+  print("===============");
+  print(" Your MarkSheet");
+  print("===============");
+  var marks1 = 78;
+  var marks2 = 45;
+  var marks3= 62;
+ 
+  print("Mark1 $marks1");
+  print("Mark2 $marks2");
+  print("Mark3 $marks3");
+ 
+  print("===============");
+  
+var totalMarks =  marks1+marks2+marks3;
+  print("Total Marks : $totalMarks /300");
+    print("===============");
+  var per = (totalMarks *100)~/300;
+  print("Percentage : $per");
+}
